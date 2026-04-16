@@ -1,5 +1,3 @@
-Plaintext
-
 streamlit
 st-gsheets-connection
 pandas
