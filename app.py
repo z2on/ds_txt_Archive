@@ -30,7 +30,7 @@ def decode_file(file):
 with st.sidebar:
     st.header("🔒 관리자 메뉴")
     pw = st.text_input("업로드 비밀번호", type="password")
-    if pw == "1234": # 원하는 비밀번호로 바꾸세요
+    if pw == "ds2233": # 원하는 비밀번호로 바꾸세요
         files = st.file_uploader("메모장(.txt) 업로드", type='txt', accept_multiple_files=True)
         if st.button("시트에 저장하기"):
             if files:
